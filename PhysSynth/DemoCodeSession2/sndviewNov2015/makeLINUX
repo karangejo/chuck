@@ -1,0 +1,3 @@
+gcc -w -std=gnu99 -o sndview sndview.c -lm -lglut -lGL 
+
+

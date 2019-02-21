@@ -1,0 +1,18 @@
+NOTE:    sndview only deals with mono files.
+
+It tries not to fail silently, rather printing
+a warning out in the shell.  But then it will 
+happily go along and display whatever file 
+you feed it as if it were mono.
+Results will be not generally as desired
+if you feed it a stereo or multi-channel file.
+
+Also, no mp3, m4a, or other compressed files.
+.wav also supports some compressed data, but
+sndview is completely ignorant of this.  So
+it's possible you'll find files that look like
+garbage in sndview.
+
+Load such files into a sound editor that 
+understands them, then convert and save it
+out as 16 bit mono.

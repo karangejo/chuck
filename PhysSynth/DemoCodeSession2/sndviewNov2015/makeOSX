@@ -1,0 +1,2 @@
+gcc -w -m32 -O3 -DOSX -framework OpenGL -framework GLUT -framework Foundation -o sndview sndview.c 
+
